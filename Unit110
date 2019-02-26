@@ -1,0 +1,16 @@
+//Created by: Khoa Le
+//Created on: Feb 25
+
+public class Unit110 {
+
+	public static void main(String[] args) {
+		
+		for (SolarSystem Planets : SolarSystem.values()) {
+		    System.out.println(Planets);
+		}
+	}
+enum SolarSystem{
+	Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
+}
+
+}
